@@ -1,0 +1,915 @@
+{
+  "$schema": "./README.md#schema",
+  "amap_key": "",
+  "trip_name": "嘉兴开元森泊 2 天 1 晚 · 亲子水乐园",
+  "date_range": "2026-08-08 ~ 2026-08-09",
+  "n_days": "1 泊 2 日",
+  "city": "嘉兴",
+  "summary": "宁波出发自驾 100 分钟直达南北湖畔的森泊度假区，主攻室内恒温水乐园 + 幻想岛儿童乐园，傍晚转室外水乐园，第二天顺路南北湖环湖，2 大 2 小轻松不赶。",
+  "weather_plan": "8 月嘉兴高温 37°C 上下：白天泡室内恒温水乐园/幻想岛避暑，傍晚 17:30 后转室外水乐园；南北湖为户外点，若午后暴晒改回幻想岛（住客不限次进出）。",
+  "trip_center": [
+    120.865943,
+    30.388848
+  ],
+  "hotel": {
+    "name": "嘉兴开元森泊度假酒店",
+    "address": "浙江省嘉兴市海盐县澉浦镇澉浦大道1677号",
+    "lng": 120.865943,
+    "lat": 30.388848,
+    "amap_uri": "https://uri.amap.com/marker?position=120.865943,30.388848&name=嘉兴开元森泊度假酒店",
+    "why": "度假区即酒店：室内外水乐园 31000㎡、幻想岛儿童乐园 2300㎡ 步行可达，住客双园不限次进出；园区有接驳车，亲子用品（儿童洗漱/拖鞋）齐全。",
+    "commute": [
+      {
+        "day": 1,
+        "region": "森泊水乐园",
+        "duration_min": 8,
+        "mode": "步行/接驳车"
+      },
+      {
+        "day": 2,
+        "region": "幻想岛 + 南北湖",
+        "duration_min": 15,
+        "mode": "接驳车 + 自驾"
+      }
+    ],
+    "price": {
+      "min": 899,
+      "max": 1698,
+      "currency": "CNY",
+      "unit": "per_night",
+      "quantity": 1,
+      "total_min": 899,
+      "total_max": 1698,
+      "label": "住宿（木屋房含双早+双园任选门票2份/天）",
+      "source": "ctrip-webfetch",
+      "source_ref": "携程酒店实查：木屋房套餐 ¥899 起/晚；湖景木屋 2 晚 ¥1698"
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-08-08",
+      "weekday": "周六",
+      "region": "开元森泊度假区 · 水乐园",
+      "theme": "自驾抵达 → 室内水乐园避暑 → 傍晚室外水乐园",
+      "weather": "晴 37°C / 28°C",
+      "weather_emoji": "☀️",
+      "center": [
+        120.870033,
+        30.389578
+      ],
+      "zoom": 15,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "10:45",
+          "name": "嘉兴开元森泊度假酒店（办理入住）",
+          "cat": "hotel",
+          "lng": 120.865943,
+          "lat": 30.388848,
+          "duration_min": 45,
+          "note": "到店先办入住寄存行李；客房配儿童洗漱用品/小拖鞋。提前联系管家会发用餐+游玩攻略。",
+          "why": "度假区一站式，车停酒店后全程步行+接驳车。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 899,
+            "max": 1698,
+            "currency": "CNY",
+            "unit": "per_night",
+            "quantity": 1,
+            "total_min": 899,
+            "total_max": 1698,
+            "label": "住宿含双早+双园门票2份",
+            "source": "ctrip-webfetch",
+            "source_ref": "携程套餐实查"
+          },
+          "slot_costs": [
+            {
+              "label": "住宿",
+              "price": {
+                "min": 899,
+                "max": 1698,
+                "currency": "CNY",
+                "unit": "per_night",
+                "quantity": 1,
+                "total_min": 899,
+                "total_max": 1698,
+                "label": "住宿",
+                "source": "ctrip-webfetch",
+                "source_ref": "携程实查"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "time": "11:30",
+          "name": "午餐 · 雁来轩中餐厅",
+          "cat": "food",
+          "lng": 120.865891,
+          "lat": 30.389108,
+          "duration_min": 60,
+          "note": "酒店内中餐厅（距大堂 29m），主打本地菜；备选森灵岩洞餐厅（酒店 1F 岩洞主题）。",
+          "why": "吃完饭直接去水乐园，不用出园区。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 200,
+            "max": 320,
+            "currency": "CNY",
+            "unit": "per_meal",
+            "quantity": 1,
+            "total_min": 200,
+            "total_max": 320,
+            "label": "午餐 2大2小",
+            "source": "amap-rest-api",
+            "source_ref": "高德 POI 实查 + 大众点评人均参考"
+          },
+          "slot_costs": [
+            {
+              "label": "午餐",
+              "price": {
+                "min": 200,
+                "max": 320,
+                "currency": "CNY",
+                "unit": "per_meal",
+                "quantity": 1,
+                "total_min": 200,
+                "total_max": 320,
+                "label": "午餐",
+                "source": "amap-rest-api",
+                "source_ref": "高德 POI 实查"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "time": "13:00",
+          "name": "森泊水乐园 · 室内区（避暑主力）",
+          "cat": "waterpark",
+          "lng": 120.870033,
+          "lat": 30.389578,
+          "duration_min": 240,
+          "note": "31000㎡ 室内外水乐园 30+ 项目：室内恒温 30°C 不晒（漂流河/造浪池/星际盘旋/阳光岛水寨）；营业 10:00-20:30，19:00 停止入园。住客不限次进出，中途可回房休息。",
+          "why": "中午 37°C 高温，室内恒温水乐园是带娃最佳选择。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "含在酒店套餐（双园任选2份/天）",
+            "source": "computed",
+            "source_ref": "套餐含门票；额外儿童票约 ¥69 起/人（大河票务团购价）"
+          },
+          "slot_costs": [
+            {
+              "label": "水乐园门票",
+              "price": {
+                "min": 0,
+                "max": 0,
+                "currency": "CNY",
+                "unit": "free",
+                "quantity": 1,
+                "total_min": 0,
+                "total_max": 0,
+                "label": "套餐含",
+                "source": "computed",
+                "source_ref": "套餐含双园门票；儿童加票参考 ¥69 起"
+              }
+            },
+            {
+              "label": "储物柜/泳具",
+              "price": {
+                "min": 30,
+                "max": 80,
+                "currency": "CNY",
+                "unit": "per_family",
+                "quantity": 1,
+                "total_min": 30,
+                "total_max": 80,
+                "label": "储物柜/泳具",
+                "source": "computed",
+                "source_ref": "园区消费参考"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "time": "17:30",
+          "name": "森泊水乐园 · 室外区（傍晚凉爽）",
+          "cat": "waterpark",
+          "lng": 120.870033,
+          "lat": 30.389578,
+          "duration_min": 120,
+          "note": "太阳落山后转室外：激流河、海啸湾造浪池等刺激项目，傍晚水温舒适不晒。",
+          "why": "避开正午暴晒，17:30 后室外体感最佳。",
+          "weather_sensitive": true,
+          "indoor_backup": "如遇雷阵雨，留在室内恒温区继续玩（漂流河/水寨）。",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "套餐已含",
+            "source": "computed",
+            "source_ref": "双园任选门票"
+          },
+          "slot_costs": [
+            {
+              "label": "晚餐",
+              "price": {
+                "min": 220,
+                "max": 350,
+                "currency": "CNY",
+                "unit": "per_meal",
+                "quantity": 1,
+                "total_min": 220,
+                "total_max": 350,
+                "label": "晚餐",
+                "source": "amap-rest-api",
+                "source_ref": "荆山里餐饮中心/老澉浦饭店 高德实查"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "time": "19:30",
+          "name": "篝火晚会 + 音乐喷泉",
+          "cat": "event",
+          "lng": 120.870025,
+          "lat": 30.389525,
+          "duration_min": 60,
+          "note": "每晚 19:00/20:00 音乐喷泉；夏季有篝火晚会（住客好评提到），孩子玩得最开心的一刻。",
+          "why": "亲子度假的收尾节目，免费。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "computed",
+            "source_ref": "酒店活动"
+          },
+          "slot_costs": []
+        }
+      ],
+      "meals": {
+        "lunch": {
+          "main": {
+            "name": "雁来轩中餐厅",
+            "why": "酒店内 29m，本地菜，吃完直接进水乐园",
+            "price": {
+              "min": 200,
+              "max": 320,
+              "currency": "CNY",
+              "unit": "per_meal",
+              "quantity": 1,
+              "total_min": 200,
+              "total_max": 320,
+              "label": "午餐",
+              "source": "amap-rest-api",
+              "source_ref": "高德 POI 实查"
+            }
+          },
+          "alt": {
+            "name": "森灵岩洞餐厅",
+            "why": "酒店 1F 岩洞主题餐厅，58m"
+          }
+        },
+        "dinner": {
+          "main": {
+            "name": "荆山里餐饮中心",
+            "why": "距酒店 566m，南北湖东门旁本地菜",
+            "price": {
+              "min": 220,
+              "max": 350,
+              "currency": "CNY",
+              "unit": "per_meal",
+              "quantity": 1,
+              "total_min": 220,
+              "total_max": 350,
+              "label": "晚餐",
+              "source": "amap-rest-api",
+              "source_ref": "高德 POI 实查"
+            }
+          },
+          "alt": {
+            "name": "老澉浦饭店（南北湖店）",
+            "why": "距酒店 668m，澉浦本地老店"
+          }
+        }
+      },
+      "transports": [
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "walking",
+          "duration_min": 4,
+          "description": "步行 4 分钟（酒店 → 雁来轩中餐厅）",
+          "distance_m": 336,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "walking",
+          "duration_min": 10,
+          "description": "步行 10 分钟（雁来轩 → 森泊水乐园室内区）",
+          "distance_m": 768,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 4,
+          "mode": "walking",
+          "duration_min": 3,
+          "description": "室内→室外区，步行约 3 分钟",
+          "distance_m": 400,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 4,
+          "to_idx": 5,
+          "mode": "walking",
+          "duration_min": 3,
+          "description": "水乐园 → 篝火晚会场地，步行约 3 分钟",
+          "distance_m": 400,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 5,
+          "to_idx": 0,
+          "mode": "walking",
+          "duration_min": 5,
+          "description": "步行 5 分钟回酒店",
+          "distance_m": 435,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-08-09",
+      "weekday": "周日",
+      "region": "幻想岛 + 南北湖",
+      "theme": "幻想岛儿童乐园 → 南北湖环湖 → 午后返程",
+      "weather": "多云 37°C / 28°C",
+      "weather_emoji": "⛅",
+      "center": [
+        120.847395,
+        30.372508
+      ],
+      "zoom": 13,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "08:30",
+          "name": "酒店自助早餐",
+          "cat": "food",
+          "lng": 120.865943,
+          "lat": 30.388848,
+          "duration_min": 60,
+          "note": "周末 07:00-10:30 供应；住客好评「自助早餐很丰富」。套餐含 2 份成人早餐，儿童约 ¥68/人。",
+          "why": "吃完早餐元气满满进乐园。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 136,
+            "currency": "CNY",
+            "unit": "per_meal",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 136,
+            "label": "早餐（套餐含2成人，儿童2人×¥68）",
+            "source": "ctrip-webfetch",
+            "source_ref": "携程实查：儿童加早 ¥68/人"
+          },
+          "slot_costs": [
+            {
+              "label": "儿童早餐",
+              "price": {
+                "min": 0,
+                "max": 136,
+                "currency": "CNY",
+                "unit": "per_meal",
+                "quantity": 1,
+                "total_min": 0,
+                "total_max": 136,
+                "label": "儿童早餐",
+                "source": "ctrip-webfetch",
+                "source_ref": "¥68/人×2"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "time": "09:30",
+          "name": "森泊幻想岛 · 儿童乐园",
+          "cat": "kids",
+          "lng": 120.870025,
+          "lat": 30.389525,
+          "duration_min": 150,
+          "note": "2300㎡ 超大型儿童乐园 20+ 项目：攀爬网、海洋球、角色扮演区；住客不限次进出，中途可回房休息。乐园 3 楼有手工坊（套餐含森泊手工坊三选一）。",
+          "why": "上午室内凉快，孩子放电主力场。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "套餐含（双园任选）",
+            "source": "computed",
+            "source_ref": "套餐含双园任选门票"
+          },
+          "slot_costs": [
+            {
+              "label": "手工坊",
+              "price": {
+                "min": 0,
+                "max": 0,
+                "currency": "CNY",
+                "unit": "free",
+                "quantity": 1,
+                "total_min": 0,
+                "total_max": 0,
+                "label": "套餐含手工坊三选一",
+                "source": "computed",
+                "source_ref": "携程套餐实查"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "time": "12:00",
+          "name": "午餐 · 老澉浦饭店",
+          "cat": "food",
+          "lng": 120.866989,
+          "lat": 30.382913,
+          "duration_min": 60,
+          "note": "澉浦本地老店（距酒店 668m），南北湖鱼鲜；备选荆山里餐饮中心。",
+          "why": "退房前最后一顿本地菜。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 200,
+            "max": 320,
+            "currency": "CNY",
+            "unit": "per_meal",
+            "quantity": 1,
+            "total_min": 200,
+            "total_max": 320,
+            "label": "午餐 2大2小",
+            "source": "amap-rest-api",
+            "source_ref": "高德 POI 实查"
+          },
+          "slot_costs": [
+            {
+              "label": "午餐",
+              "price": {
+                "min": 200,
+                "max": 320,
+                "currency": "CNY",
+                "unit": "per_meal",
+                "quantity": 1,
+                "total_min": 200,
+                "total_max": 320,
+                "label": "午餐",
+                "source": "amap-rest-api",
+                "source_ref": "高德 POI 实查"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "time": "13:30",
+          "name": "南北湖风景名胜区（环湖）",
+          "cat": "nature",
+          "lng": 120.847395,
+          "lat": 30.372508,
+          "duration_min": 120,
+          "note": "国家 4A 景区，距酒店 4km / 13 分钟自驾；湖光山色+橘林，白鹭栖息。带娃可走湖边栈道、坐游船（景区内另购）。",
+          "why": "顺路 13 分钟，返程前消磨一个下午；高温日注意防暑。",
+          "weather_sensitive": true,
+          "indoor_backup": "午后暴晒/雷阵雨 → 改回幻想岛室内（住客不限次进出）或提前返程。",
+          "price": {
+            "min": 0,
+            "max": 100,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 4,
+            "total_min": 0,
+            "total_max": 400,
+            "label": "门票（免费开放，内部项目另购）",
+            "source": "amap-rest-api",
+            "source_ref": "高德 POI 实查；游船等内部项目另购"
+          },
+          "slot_costs": [
+            {
+              "label": "门票",
+              "price": {
+                "min": 0,
+                "max": 0,
+                "currency": "CNY",
+                "unit": "free",
+                "quantity": 1,
+                "total_min": 0,
+                "total_max": 0,
+                "label": "景区大门免费",
+                "source": "amap-rest-api",
+                "source_ref": "高德实查"
+              }
+            },
+            {
+              "label": "游船/电瓶车",
+              "price": {
+                "min": 0,
+                "max": 100,
+                "currency": "CNY",
+                "unit": "per_person",
+                "quantity": 4,
+                "total_min": 0,
+                "total_max": 400,
+                "label": "游船/电瓶车",
+                "source": "computed",
+                "source_ref": "景区内部项目参考"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "time": "15:30",
+          "name": "返程 · 嘉兴开元森泊 → 宁波鄞州",
+          "cat": "transport",
+          "lng": 120.865943,
+          "lat": 30.388848,
+          "duration_min": 100,
+          "note": "15:30 出发，17:10 前后到家；晚高峰前上高速避开拥堵。",
+          "why": "预留 1.5 小时缓冲，孩子车上补觉。",
+          "weather_sensitive": false,
+          "price": {
+            "min": 40,
+            "max": 60,
+            "currency": "CNY",
+            "unit": "per_trip",
+            "quantity": 1,
+            "total_min": 40,
+            "total_max": 60,
+            "label": "高速费",
+            "source": "amap-rest-api",
+            "source_ref": "高德驾车路线实算（往返）"
+          },
+          "slot_costs": [
+            {
+              "label": "高速费",
+              "price": {
+                "min": 40,
+                "max": 60,
+                "currency": "CNY",
+                "unit": "per_trip",
+                "quantity": 1,
+                "total_min": 40,
+                "total_max": 60,
+                "label": "高速费",
+                "source": "amap-rest-api",
+                "source_ref": "高德实算"
+              }
+            },
+            {
+              "label": "油费",
+              "price": {
+                "min": 80,
+                "max": 110,
+                "currency": "CNY",
+                "unit": "per_trip",
+                "quantity": 1,
+                "total_min": 80,
+                "total_max": 110,
+                "label": "油费",
+                "source": "computed",
+                "source_ref": "往返 264km 估"
+              }
+            }
+          ]
+        }
+      ],
+      "meals": {
+        "breakfast": {
+          "main": {
+            "name": "酒店自助早餐",
+            "why": "套餐含 2 成人，周末 07:00-10:30；儿童 ¥68/人",
+            "price": {
+              "min": 0,
+              "max": 136,
+              "currency": "CNY",
+              "unit": "per_meal",
+              "quantity": 1,
+              "total_min": 0,
+              "total_max": 136,
+              "label": "早餐",
+              "source": "ctrip-webfetch",
+              "source_ref": "携程实查"
+            }
+          }
+        },
+        "lunch": {
+          "main": {
+            "name": "老澉浦饭店（南北湖店）",
+            "why": "本地老店 668m，南北湖鱼鲜",
+            "price": {
+              "min": 200,
+              "max": 320,
+              "currency": "CNY",
+              "unit": "per_meal",
+              "quantity": 1,
+              "total_min": 200,
+              "total_max": 320,
+              "label": "午餐",
+              "source": "amap-rest-api",
+              "source_ref": "高德 POI 实查"
+            }
+          },
+          "alt": {
+            "name": "荆山里餐饮中心",
+            "why": "备选，距酒店 566m"
+          }
+        }
+      },
+      "transports": [
+        {
+          "from_idx": 0,
+          "to_idx": 1,
+          "mode": "walking",
+          "duration_min": 2,
+          "description": "酒店客房 → 自助餐厅，步行 2 分钟",
+          "distance_m": 100,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "walking",
+          "duration_min": 5,
+          "description": "步行 5 分钟（酒店 → 森泊幻想岛）",
+          "distance_m": 435,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "walking",
+          "duration_min": 15,
+          "description": "步行 15 分钟（幻想岛 → 老澉浦饭店）",
+          "distance_m": 1199,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 4,
+          "mode": "driving",
+          "duration_min": 13,
+          "description": "自驾 13 分钟（老澉浦 → 南北湖风景区）",
+          "distance_m": 5243,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        },
+        {
+          "from_idx": 4,
+          "to_idx": 5,
+          "mode": "driving",
+          "duration_min": 26,
+          "description": "自驾 26 分钟（南北湖 → 酒店取车返程）",
+          "distance_m": 9240,
+          "source": "amap-rest-api",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "amap-rest-api",
+            "source_ref": "高德 REST 实算"
+          }
+        }
+      ]
+    }
+  ],
+  "deleted": [
+    {
+      "item": "高铁方案（宁波→嘉兴南）",
+      "reason": "需转 3 趟车约 4.5h 且嘉兴南到森泊还要 1h+，亲子带娃自驾 100 分钟直达更优"
+    },
+    {
+      "item": "西塘/乌镇古镇一日游",
+      "reason": "2 天 1 晚以森泊度假区为核心，古镇往返 2h+ 会压缩水乐园时间；下次单程顺路再排"
+    },
+    {
+      "item": "嘉兴市区南湖/月河",
+      "reason": "距森泊 40km+ 单程 1h，亲子行程不折腾"
+    }
+  ],
+  "prebook": [
+    {
+      "item": "嘉兴开元森泊度假酒店（木屋房套餐）",
+      "deadline": "8 月暑期旺季，立即订",
+      "url": "https://hotels.ctrip.com/hotels/list?cityname=%E5%98%89%E5%85%B4&keyword=%E5%98%89%E5%85%B4%E5%BC%80%E5%85%83%E6%A3%AE%E6%B3%8A%E5%BA%A6%E5%81%87%E9%85%92%E5%BA%97",
+      "note": "套餐含双早 + 双园任选门票 2 份/天 + 手工坊三选一 + 旅拍；周末价 ¥899 起，湖景木屋更贵。对比携程/美团/飞猪。",
+      "price": {
+        "min": 899,
+        "max": 1698,
+        "currency": "CNY",
+        "unit": "per_night",
+        "quantity": 1,
+        "total_min": 899,
+        "total_max": 1698,
+        "label": "住宿套餐",
+        "source": "ctrip-webfetch",
+        "source_ref": "携程实查"
+      }
+    },
+    {
+      "item": "儿童水乐园/幻想岛门票（如需加票）",
+      "deadline": "入园当天线上购",
+      "url": "https://touch.piao.qunar.com/touch/detail_528233.html",
+      "note": "套餐含 2 份成人双园门票，2 个孩子的票需另购；参考团购价 ¥69 起/人（大河票务/去哪儿），1 米以下儿童政策以景区为准。",
+      "price": {
+        "min": 69,
+        "max": 150,
+        "currency": "CNY",
+        "unit": "per_person",
+        "quantity": 2,
+        "total_min": 138,
+        "total_max": 300,
+        "label": "儿童票×2",
+        "source": "dahepiao-webfetch",
+        "source_ref": "大河票务团购 ¥69 起/人"
+      }
+    }
+  ],
+  "party_size": 4,
+  "budget_summary": {
+    "currency": "CNY",
+    "by_category": {
+      "transport": {
+        "min": 240,
+        "max": 340,
+        "note": "往返高速费 80-120 + 油费 160-220"
+      },
+      "food": {
+        "min": 620,
+        "max": 1126,
+        "note": "4 餐（含儿童早餐）"
+      },
+      "tickets": {
+        "min": 138,
+        "max": 300,
+        "note": "儿童双园门票×2（套餐含成人票）"
+      },
+      "hotel": {
+        "min": 899,
+        "max": 1698,
+        "nights": 1,
+        "note": "木屋房套餐含双早+双园成人票"
+      },
+      "extras": {
+        "min": 30,
+        "max": 480,
+        "note": "储物柜/泳具 + 南北湖游船（可选）"
+      }
+    },
+    "total_min": 2858.0,
+    "total_max": 5758.0,
+    "per_person_min": 714,
+    "per_person_max": 1440,
+    "disclaimer": "价格为 2026-07-31 调研日参考；酒店/门票以平台实时为准，不含个人购物"
+  },
+  "trip_slug": "jiaxing-2026-08-08"
+}
