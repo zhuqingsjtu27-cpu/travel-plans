@@ -1,0 +1,350 @@
+{
+ "$schema": "travel-planner/trip.schema.json",
+ "amap_key": "a0222c10cd017d744880312be2a60848",
+ "trip_name": "宁波大梦小院 · 东钱湖房车半日亲子游",
+ "date_range": "2026-08-01",
+ "n_days": "半日",
+ "city": "宁波",
+ "summary": "8 月 1 日周六，B 型房车 3 大 2 小：鄞州万达 8:30 出发，环城南路高架 38 分钟直达东钱湖大梦小院咖啡花园（4.7 分），上午花园咖啡避暑，随后 14 分钟转小隐上水国际房车度假基地停靠湖边营位，草坪野餐 + 亲水平台，13:00 收摊返程，13:40 回到万达（2 点前到）。39°C 高温全程赶早躲晒。",
+ "weather_plan": "8/1 多云转晴 39°C/27°C 高温日：上午 9-11 点在大梦小院花园+室内咖啡厅避暑；11 点后到营地只在遮阳棚/房车内活动，亲水平台 11:30 前玩水拍照（游记实测'除了晒没毛病'）；13:00 准时返程避开午后最热时段；全员防晒霜+冰水+遮阳帽，孩子每 40 分钟补水。",
+ "trip_center": [
+  121.699093,
+  29.743055
+ ],
+ "party_size": 5,
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-08-01",
+   "weekday": "周六",
+   "region": "东钱湖 · 环湖东路",
+   "theme": "8:30 万达出发 → 大梦小院咖啡花园 → 上水房车营地湖边营位 → 13:00 返程",
+   "weather": "多云转晴 39°C / 27°C",
+   "weather_emoji": "☀️",
+   "center": [
+    121.699093,
+    29.743055
+   ],
+   "zoom": 14,
+   "pois": [
+    {
+     "idx": 1,
+     "time": "08:30",
+     "name": "万达广场（宁波鄞州店）出发",
+     "cat": "depart",
+     "lng": 121.545542,
+     "lat": 29.825671,
+     "duration_min": 0,
+     "note": "集合装车：房车冰箱带好冰饮水果，遮阳棚/天幕、折叠椅、野餐垫、孩子防晒帽泳衣（营地有泳池沙坑，实测年久失修，当备选）。导航：环城南路高架 → 鄞县大道 → 环湖北路 → 虾公山隧道 → 环湖东路。",
+     "why": "出发点，8:30 出发避开高架早高峰与午后高温。",
+     "weather_sensitive": false,
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "出发",
+      "source": "computed",
+      "source_ref": "自备"
+     }
+    },
+    {
+     "idx": 2,
+     "time": "09:10",
+     "name": "大梦小院（咖啡花园）",
+     "cat": "cafe",
+     "lng": 121.699093,
+     "lat": 29.743055,
+     "duration_min": 90,
+     "note": "环湖东路 718 号（心宿福泉对面），营业 09:00-17:00，评分 4.7。花园庭院 + 室内咖啡厅：上午不晒时段花园拍照、孩子庭院跑动，10:30 后转室内吹空调；可点咖啡简餐当早午餐（人均 ¥60）。",
+     "why": "核心目的地：东钱湖畔 4.7 分花园咖啡，上午凉快时段正合适，顺便补给冰饮。",
+     "weather_sensitive": true,
+     "indoor_backup": "39°C 高温时段直接进室内咖啡厅（有空调），花园只清晨/傍晚拍。",
+     "price": {
+      "min": 180,
+      "max": 300,
+      "currency": "CNY",
+      "unit": "per_meal",
+      "quantity": 1,
+      "total_min": 180,
+      "total_max": 300,
+      "label": "咖啡+简餐 3大2小",
+      "source": "amap-rest-api",
+      "source_ref": "高德 POI 人均 ¥60 实查"
+     },
+     "slot_costs": [
+      {
+       "label": "咖啡+早午餐",
+       "price": {
+        "min": 180,
+        "max": 300,
+        "currency": "CNY",
+        "unit": "per_meal",
+        "quantity": 1,
+        "total_min": 180,
+        "total_max": 300,
+        "label": "咖啡+早午餐",
+        "source": "amap-rest-api",
+        "source_ref": "高德 POI 人均 ¥60 实查"
+       }
+      }
+     ]
+    },
+    {
+     "idx": 3,
+     "time": "10:55",
+     "name": "小隐上水国际房车度假基地（东钱湖帐篷营地）",
+     "cat": "activity",
+     "lng": 121.676928,
+     "lat": 29.747326,
+     "duration_min": 125,
+     "note": "东钱湖环湖东路，营业 08:30-17:00，评分 4.7，电话 0574-28803595。东钱湖唯一接待自行式房车的营地：面湖营位停靠（自行式房车 ¥150/晚，白天停靠请电话确认）、大草坪、伸向湖面亲水平台、租帐篷/烧烤/自行车。午餐：营地简餐或房车自带食材（烧烤架可租）。",
+     "why": "用户指定湖边露营位：正规房车营地，草坪+亲水平台满足孩子撒欢，房车停营位开空调躲午晒。",
+     "weather_sensitive": true,
+     "indoor_backup": "午后高温回房车开空调（接营位电），或营地咖啡厅；13:00 准时返程。",
+     "price": {
+      "min": 150,
+      "max": 350,
+      "currency": "CNY",
+      "unit": "per_family",
+      "quantity": 1,
+      "total_min": 150,
+      "total_max": 350,
+      "label": "房车停靠+租帐篷/烧烤（自备食材）",
+      "source": "amap-rest-api",
+      "source_ref": "高德 POI 人均 ¥89 + 游记实测房车 ¥150/晚"
+     },
+     "slot_costs": [
+      {
+       "label": "房车停靠",
+       "price": {
+        "min": 0,
+        "max": 150,
+        "currency": "CNY",
+        "unit": "per_family",
+        "quantity": 1,
+        "total_min": 0,
+        "total_max": 150,
+        "label": "自行式房车停靠（白天请电话确认）",
+        "source": "amap-rest-api",
+        "source_ref": "游记实测 ¥150/晚"
+       }
+      },
+      {
+       "label": "租帐篷/烧烤/午餐",
+       "price": {
+        "min": 100,
+        "max": 200,
+        "currency": "CNY",
+        "unit": "per_family",
+        "quantity": 1,
+        "total_min": 100,
+        "total_max": 200,
+        "label": "租帐篷/烧烤+午餐",
+        "source": "amap-rest-api",
+        "source_ref": "高德 POI 人均 ¥89 参考"
+       }
+      }
+     ]
+    }
+   ],
+   "meals": {
+    "brunch": {
+     "main": {
+      "name": "大梦小院（咖啡花园）",
+      "why": "人均 ¥60（高德实查），花园咖啡+简餐；到店即入，上午不晒",
+      "price": {
+       "min": 180,
+       "max": 300,
+       "currency": "CNY",
+       "unit": "per_meal",
+       "quantity": 1,
+       "total_min": 180,
+       "total_max": 300,
+       "label": "早午餐 3大2小",
+       "source": "amap-rest-api",
+       "source_ref": "高德 POI 人均 ¥60 实查"
+      }
+     },
+     "alt": {
+      "name": "只喝咖啡，午餐移步营地",
+      "why": "不想点餐可在小院只喝咖啡，午餐到营地解决"
+     }
+    },
+    "lunch": {
+     "main": {
+      "name": "营位野餐 / 营地简餐",
+      "why": "房车冰箱自带水果三明治最省心（39°C 不折腾）；或营地租烧烤架+食材、营地咖啡厅简餐",
+      "price": {
+       "min": 100,
+       "max": 250,
+       "currency": "CNY",
+       "unit": "per_meal",
+       "quantity": 1,
+       "total_min": 100,
+       "total_max": 250,
+       "label": "午餐 3大2小",
+       "source": "computed",
+       "source_ref": "自备食材 + 营地消费参考"
+      }
+     },
+     "alt": {
+      "name": "营地租烧烤（含食材）",
+      "why": "游记实测营地可烧烤；39°C 中午建议简化，烤串留到傍晚（本次不过夜则放弃）"
+     }
+    }
+   },
+   "transports": [
+    {
+     "from_idx": 1,
+     "to_idx": 2,
+     "mode": "driving",
+     "duration_min": 38,
+     "description": "驾车 38 分钟 · 27.9km（环城南路高架 → 鄞县大道 → 环湖北路 → 虾公山隧道 → 环湖东路）",
+     "distance_m": 27900,
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "无过路费",
+      "source": "amap-rest-api",
+      "source_ref": "高德 REST 实算"
+     }
+    },
+    {
+     "from_idx": 2,
+     "to_idx": 3,
+     "mode": "driving",
+     "duration_min": 14,
+     "description": "驾车 14 分钟 · 4.8km（环湖东路往南）",
+     "distance_m": 4800,
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "无过路费",
+      "source": "amap-rest-api",
+      "source_ref": "高德 REST 实算"
+     }
+    },
+    {
+     "from_idx": 3,
+     "to_idx": 1,
+     "mode": "driving",
+     "duration_min": 38,
+     "description": "返程 13:00 出发 · 驾车 38 分钟 · 22.6km，13:40 前到万达（2 点前富余 20 分钟）",
+     "distance_m": 22600,
+     "source": "amap-rest-api",
+     "fare": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "无过路费",
+      "source": "amap-rest-api",
+      "source_ref": "高德 REST 实算"
+     }
+    }
+   ]
+  }
+ ],
+ "deleted": [
+  {
+   "item": "韩岭老街",
+   "reason": "距大梦小院 6km+，半日时间不够 + 39°C 高温石板路暴晒，孩子吃不消"
+  },
+  {
+   "item": "南宋石刻公园 / 福泉山",
+   "reason": "户外暴晒型景点，39°C 高温不适合；下次秋天单排"
+  },
+  {
+   "item": "营地过夜",
+   "reason": "用户明确下午 2 点前回，按半日设计；自行式房车过夜 ¥150/晚可作下次备选"
+  }
+ ],
+ "prebook": [
+  {
+   "item": "小隐上水国际房车度假基地 · 房车停靠位",
+   "deadline": "出发前一天（7/31）电话确认",
+   "url": "https://touch.piao.qunar.com/touch/detail_1739082621.html",
+   "note": "电话 0574-28803595：确认自行式 B 型房车白天停靠位 + 是否收费 + 可否接电开空调；暑期周末营位紧张（游记实测旺季'假房车'售罄，自行式房车 ¥150/晚）。",
+   "price": {
+    "min": 0,
+    "max": 150,
+    "currency": "CNY",
+    "unit": "per_family",
+    "quantity": 1,
+    "total_min": 0,
+    "total_max": 150,
+    "label": "房车停靠",
+    "source": "amap-rest-api",
+    "source_ref": "游记实测"
+   }
+  },
+  {
+   "item": "大梦小院咖啡花园 · 座位确认",
+   "deadline": "当天 9 点开门到店（无需预约）",
+   "url": "https://uri.amap.com/place/B0LA9HVKJZ",
+   "note": "电话 15306648829；周六上午人少，9:10 到店有位，人多可电话问询。",
+   "price": {
+    "min": 0,
+    "max": 0,
+    "currency": "CNY",
+    "unit": "free",
+    "quantity": 1,
+    "total_min": 0,
+    "total_max": 0,
+    "label": "无需预约",
+    "source": "computed",
+    "source_ref": "咖啡花园到店即入"
+   }
+  }
+ ],
+ "budget_summary": {
+  "currency": "CNY",
+  "by_category": {
+   "transport": {
+    "min": 0,
+    "max": 0,
+    "note": "无过路费；油费另计（往返约 55km，B 型房车约 ¥55-80）"
+   },
+   "food": {
+    "min": 280,
+    "max": 550,
+    "note": "大梦小院咖啡简餐 + 营地野餐/简餐（3大2小）"
+   },
+   "tickets": {
+    "min": 0,
+    "max": 150,
+    "note": "房车停靠（白天待电话确认，过夜 ¥150/晚）"
+   },
+   "extras": {
+    "min": 0,
+    "max": 200,
+    "note": "租帐篷/烧烤架（自备食材则省）"
+   }
+  },
+  "total_min": 430,
+  "total_max": 900,
+  "per_person_min": 86,
+  "per_person_max": 180,
+  "disclaimer": "价格为 2026-07-31 调研日参考；营地停靠费以电话确认为准，油费另计，不含个人购物"
+ },
+ "trip_slug": "ningbo-2026-08-01"
+}
