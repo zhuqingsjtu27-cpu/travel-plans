@@ -1,0 +1,523 @@
+{
+  "trip_name": "岱山房车亲子 2 日 1 晚",
+  "date_range": "2026-10-02 ~ 2026-10-03",
+  "n_days": "1 泊 2 日",
+  "city": "舟山岱山",
+  "summary": "雨天博物馆+雨歇海边+房车自给。一天一区，老人小孩轻松走。",
+  "weather_plan": "两天白天小雨、夜间多云，20-25℃；沙滩雨歇再去，雨大换室内博物馆。",
+  "trip_center": [
+    122.2,
+    30.27
+  ],
+  "hotel": {
+    "name": "如福房车营地（备选：鹿栏晴沙海边停车场）",
+    "address": "舟山市岱山县高亭镇长河路与康健路交叉口南220米",
+    "lng": 122.208876,
+    "lat": 30.24404,
+    "amap_uri": "https://uri.amap.com/marker?position=122.208876,30.244040&name=如福房车营地",
+    "why": "岱山唯一在册露营地，近高亭中心菜场/城区；水电桩到前需电话确认。不行转鹿栏晴沙海边停车场（9km/14分钟，无水电，自给自足）。",
+    "commute": [
+      {
+        "day": 1,
+        "region": "高亭城区/岱东海滨",
+        "duration_min": 5,
+        "mode": "房车自驾"
+      },
+      {
+        "day": 2,
+        "region": "东沙古镇片区",
+        "duration_min": 21,
+        "mode": "房车自驾"
+      }
+    ],
+    "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CNY",
+      "unit": "free",
+      "quantity": 1,
+      "total_min": 0,
+      "total_max": 0,
+      "label": "营地费以现场为准",
+      "source": "computed",
+      "source_ref": "房车营地费用现场确认"
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-02",
+      "weekday": "周五",
+      "region": "高亭城区 / 岱东海滨",
+      "theme": "采购+灯塔博物馆+鹿栏晴沙",
+      "weather": "小雨转多云 20-25℃",
+      "weather_emoji": "🌦️",
+      "center": [
+        122.21,
+        30.27
+      ],
+      "zoom": 13,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "10:00",
+          "name": "高亭中心菜场 / 海滨农贸市场",
+          "cat": "shopping",
+          "lng": 122.211,
+          "lat": 30.2475,
+          "duration_min": 60,
+          "note": "人民路360号中心菜场；沿江西路219号海滨农贸市场。买岱山带鱼、梭子蟹、淡菜、墨鱼。",
+          "why": "到岱山先补给，房车上做午餐",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "采购自填",
+            "source": "computed",
+            "source_ref": "买菜钱按需自填"
+          },
+          "slot_costs": [
+            {
+              "label": "海鲜采购",
+              "price": {
+                "min": 0,
+                "max": 300,
+                "currency": "CNY",
+                "unit": "per_booking",
+                "quantity": 1,
+                "total_min": 0,
+                "total_max": 300,
+                "label": "海鲜菜钱",
+                "source": "computed",
+                "source_ref": "六口两顿，按需自填"
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "time": "14:00",
+          "name": "灯塔博物馆",
+          "cat": "spot",
+          "lng": 122.226264,
+          "lat": 30.25034,
+          "duration_min": 60,
+          "note": "长剑大道201号，评分4.5；周五08:30-12:00/14:00-17:00。各国灯塔模型、航标灯器。",
+          "why": "雨天室内首选，小孩看灯塔模型",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "amap-mcp",
+            "source_ref": "高德POI详情：博物馆免费"
+          }
+        },
+        {
+          "idx": 3,
+          "time": "15:00",
+          "name": "东海郊野公园",
+          "cat": "spot",
+          "lng": 122.225,
+          "lat": 30.303394,
+          "duration_min": 60,
+          "note": "海坛路1488号，评分4.3；08:30-17:00。大草坪+花海+儿童活动区。",
+          "why": "与鹿栏晴沙紧邻，雨小先逛公园",
+          "weather_sensitive": true,
+          "indoor_backup": "灯塔博物馆/回营地",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "amap-mcp",
+            "source_ref": "高德POI详情"
+          }
+        },
+        {
+          "idx": 4,
+          "time": "16:00",
+          "name": "鹿栏晴沙",
+          "cat": "spot",
+          "lng": 122.224802,
+          "lat": 30.312785,
+          "duration_min": 75,
+          "note": "山外路195号，评分4.5；09:00-17:00。华东最长沙滩之一，沙细坡缓，可赶海捡贝。",
+          "why": "雨歇踩沙赶海，10岁孩子玩得开；雨大提前回",
+          "weather_sensitive": true,
+          "indoor_backup": "回房车/灯塔博物馆",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费（以现场为准）",
+            "source": "amap-mcp",
+            "source_ref": "高德POI详情：风景名胜区"
+          }
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 0,
+          "to_idx": 1,
+          "mode": "driving",
+          "duration_min": 5,
+          "distance_m": 1500,
+          "description": "营地→高亭中心菜场，房车自驾",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": "油费计入车辆"
+          }
+        },
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 9,
+          "distance_m": 3500,
+          "description": "菜场→灯塔博物馆",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        {
+          "from_idx": 2,
+          "to_idx": 3,
+          "mode": "driving",
+          "duration_min": 12,
+          "distance_m": 7534,
+          "description": "灯塔博物馆→东海郊野公园（高德实算）",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 4,
+          "mode": "walking",
+          "duration_min": 15,
+          "distance_m": 1100,
+          "description": "郊野公园与鹿栏晴沙紧邻",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "步行",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        {
+          "from_idx": 4,
+          "to_idx": 0,
+          "mode": "driving",
+          "duration_min": 14,
+          "distance_m": 9050,
+          "description": "鹿栏晴沙→营地（高德实算9.05km）",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": ""
+          }
+        }
+      ],
+      "meals": {
+        "午餐": {
+          "where": "房车上自做",
+          "plan": "菜场采购后回营地做饭，老人小孩午休",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "已含采购",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        "晚餐": {
+          "where": "营地房车自做",
+          "plan": "梭子蟹/带鱼/淡菜，夜里多云看星星",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "已含采购",
+            "source": "computed",
+            "source_ref": ""
+          }
+        }
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-10-03",
+      "weekday": "周六",
+      "region": "东沙古镇片区",
+      "theme": "东沙古镇+台风博物馆",
+      "weather": "小雨转多云 20-26℃",
+      "weather_emoji": "🌦️",
+      "center": [
+        122.16,
+        30.32
+      ],
+      "zoom": 13,
+      "pois": [
+        {
+          "idx": 1,
+          "time": "09:00",
+          "name": "东沙古镇",
+          "cat": "spot",
+          "lng": 122.147245,
+          "lat": 30.311898,
+          "duration_min": 120,
+          "note": "解放路23号，3A，评分4.4；08:30-17:00。百年渔都古镇，石板路平缓，沿街廊棚可避雨；海棠糕、鱼干。",
+          "why": "廊棚遮雨、路平好走，老人小孩都适合",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "amap-mcp",
+            "source_ref": "高德POI详情：3A景区"
+          }
+        },
+        {
+          "idx": 2,
+          "time": "11:00",
+          "name": "台风博物馆",
+          "cat": "spot",
+          "lng": 122.181921,
+          "lat": 30.339416,
+          "duration_min": 75,
+          "note": "东沙镇拷门大坝，评分4.5；周六08:30-17:00全天。风球实物、台风体验展、防灾科普。",
+          "why": "室内展馆，两个孩子都能看懂",
+          "weather_sensitive": false,
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "免费",
+            "source": "amap-mcp",
+            "source_ref": "高德POI详情：博物馆免费"
+          }
+        },
+        {
+          "idx": 3,
+          "time": "12:30",
+          "name": "东沙/高亭海鲜馆（可选一顿）",
+          "cat": "food",
+          "lng": 122.16,
+          "lat": 30.32,
+          "duration_min": 75,
+          "note": "镇上门馆吃一顿现捕海鲜，清淡做法适合老人小孩；或继续房车做饭。",
+          "why": "难得来一次，可选外食一顿",
+          "weather_sensitive": false,
+          "price": {
+            "min": 80,
+            "max": 120,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 6,
+            "total_min": 480,
+            "total_max": 720,
+            "label": "海鲜午餐",
+            "source": "amap-mcp",
+            "source_ref": "岱山镇上馆子常规人均，高德餐饮POI口径"
+          }
+        }
+      ],
+      "transports": [
+        {
+          "from_idx": 0,
+          "to_idx": 1,
+          "mode": "driving",
+          "duration_min": 21,
+          "distance_m": 13868,
+          "description": "营地→东沙古镇（高德实算13.9km）",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        {
+          "from_idx": 1,
+          "to_idx": 2,
+          "mode": "driving",
+          "duration_min": 14,
+          "distance_m": 8971,
+          "description": "古镇→台风博物馆（高德实算8.97km）",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        {
+          "from_idx": 3,
+          "to_idx": 0,
+          "mode": "driving",
+          "duration_min": 20,
+          "distance_m": 13000,
+          "description": "午餐后返程：经高亭上舟岱大桥，13km到高速口，全程约1.5h回宁波",
+          "source": "amap-mcp",
+          "fare": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自驾",
+            "source": "computed",
+            "source_ref": ""
+          }
+        }
+      ],
+      "meals": {
+        "早餐": {
+          "where": "房车自做",
+          "plan": "简单粥面，8:30出发",
+          "price": {
+            "min": 0,
+            "max": 0,
+            "currency": "CNY",
+            "unit": "free",
+            "quantity": 1,
+            "total_min": 0,
+            "total_max": 0,
+            "label": "自备",
+            "source": "computed",
+            "source_ref": ""
+          }
+        },
+        "午餐": {
+          "where": "东沙海鲜馆或房车",
+          "plan": "可选外食一顿，人均80-120",
+          "price": {
+            "min": 80,
+            "max": 120,
+            "currency": "CNY",
+            "unit": "per_person",
+            "quantity": 6,
+            "total_min": 480,
+            "total_max": 720,
+            "label": "海鲜午餐",
+            "source": "amap-mcp",
+            "source_ref": ""
+          }
+        }
+      }
+    }
+  ],
+  "prebook": [
+    {
+      "item": "如福房车营地水电位",
+      "url": null,
+      "deadline": "出发前电话确认",
+      "note": "高德未登记电话，可打岱山12345转营地或到场确认"
+    },
+    {
+      "item": "出发前满水满电、排空污水箱",
+      "url": null,
+      "deadline": "2026-10-02 出发前",
+      "note": ""
+    }
+  ],
+  "party_size": 6,
+  "trip_slug": "daishan-2026-10-02"
+}
